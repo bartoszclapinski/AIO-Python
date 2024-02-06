@@ -3,7 +3,7 @@ age = int(input(print('How old are you, {0}? '.format(name))))
 
 if age and name:
     if 18 <= age < 31:
-        print("Welcome to the holiday")
+        print("Welcome to the holiday {}.".format(name))
     else:
         print("Sorry, you are not allowed to join the holiday")
 else:
