@@ -28,3 +28,7 @@ while low != high:
 else:
     print("You thought of the number {}".format(low))
     print("I got it in {} guesses".format(guesses))
+
+if guesses > 10:
+    print("I'm not very good at this, am I?")
+

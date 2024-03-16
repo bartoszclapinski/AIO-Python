@@ -6,8 +6,8 @@ while chosen_exit not in available_exits:
     if chosen_exit == "quit":
         print("Game Over")
         break
-    else:
-        print("Aren't you glad you got out of there!")
+else:
+    print("Aren't you glad you got out of there!")
 
 # Challenge: create a while loop which stops when i is greater than 0 and divisible by 11
 i = 0
