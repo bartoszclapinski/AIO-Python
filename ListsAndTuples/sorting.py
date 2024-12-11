@@ -17,3 +17,10 @@ print(missing_letter)
 missing_letter = sorted("The quick brown fox jumps over the lazy dog",
                         key=str.casefold)
 print(missing_letter)
+
+names = ["Graham", "John", "terry", "eric", "Terry", "michael"]
+names.sort()
+print(names)
+
+names.sort(key=str.casefold)
+print(names)
