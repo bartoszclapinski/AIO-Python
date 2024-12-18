@@ -25,3 +25,14 @@ even.sort(reverse=True)
 print(even)
 print(another_even)
 
+
+numbers = even + odd
+print(numbers)
+
+numbers = [even, odd]
+print(numbers)
+
+for number_list in numbers:
+    print(number_list)
+    for value in number_list:
+        print(value)
