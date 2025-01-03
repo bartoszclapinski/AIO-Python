@@ -14,3 +14,5 @@ for flower in flowers:
 separator = " | "
 output = separator.join(flowers)
 print(output)
+
+print(", ".join(flowers))
