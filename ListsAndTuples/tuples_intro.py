@@ -28,3 +28,14 @@ print(metallica2)
 
 metallica2[0] = "Master of Puppets"
 print(metallica2)
+
+title, artist, year = metallica
+print(title)
+print(artist)
+print(year)
+
+table = ("Coffee table", 200, 100, 75, 34.50)
+print(table[1] * table[2])
+
+name, length, width, height, price = table
+print(length * width)
