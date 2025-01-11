@@ -70,4 +70,21 @@ print(artist)
 print(year)
 print(songs)
 
+print("=" * 50)
 
+print(song)
+print(song[1])
+
+mayhem = albums[3][3][3]
+print(mayhem)
+
+print("=" * 50)
+
+print(albums[3][3][2][1])
+
+print("=" * 50)
+
+print(albums[3])
+print(albums[3][3])
+print(albums[3][3][2])
+print(albums[3][3][2][1])
