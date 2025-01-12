@@ -88,3 +88,15 @@ print(albums[3])
 print(albums[3][3])
 print(albums[3][3][2])
 print(albums[3][3][2][1])
+
+# Tytuł piosenki "The Way I Choose" z albumu "Bad Company"
+print(albums[1][3][5][1])
+
+# Rok wydania albumu "Nightflight"
+print(albums[2][2])
+
+# Numer ścieżki piosenki "Kentish Town Waltz"
+print(albums[3][3][3][0])
+
+# Krotka reprezentująca piosenkę "Keeping a Rendezvous"
+print(albums[2][3][1])
