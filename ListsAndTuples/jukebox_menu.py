@@ -23,6 +23,3 @@ while True:
         title = songs_list[song_choice - 1][SONG_TITLE_INDEX]
         print(f"Playing {title}")
 
-
-    
-
