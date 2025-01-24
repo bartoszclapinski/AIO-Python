@@ -16,6 +16,21 @@ def palindrome_sentence(sentence):
     return is_palindrome(string)
 
 
+def sum_eo(n, t):
+    """
+    Sumuje liczby parzyste lub nieparzyste mniejsze od n.
+    
+    :param n: Liczba naturalna dodatnia
+    :param t: String 'e' dla liczb parzystych, 'o' dla nieparzystych
+    :return: Suma liczb lub -1 dla nieprawidłowego parametru t
+    """
+    if t not in ['e', 'o']:
+        return -1
+        
+    start = 2 if t == 'e' else 1
+    return sum(range(start, n, 2))
+
+
 answer = multiply(10.5, 4)
 print(answer)
 
