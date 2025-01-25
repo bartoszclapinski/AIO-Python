@@ -1,6 +1,6 @@
 def multiply(x, y):
     result = x * y
-    return result
+    #return result
 
 
 def is_palindrome(word):
@@ -17,13 +17,7 @@ def palindrome_sentence(sentence):
 
 
 def sum_eo(n, t):
-    """
-    Sumuje liczby parzyste lub nieparzyste mniejsze od n.
     
-    :param n: Liczba naturalna dodatnia
-    :param t: String 'e' dla liczb parzystych, 'o' dla nieparzystych
-    :return: Suma liczb lub -1 dla nieprawidłowego parametru t
-    """
     if t not in ['e', 'o']:
         return -1
         
@@ -55,3 +49,6 @@ if palindrome_sentence(sentence):
 else:
     print(f"{sentence} is not a palindrome")
 
+
+answer = multiply(18, 3)
+print(answer)
