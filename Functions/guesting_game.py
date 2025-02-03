@@ -6,7 +6,7 @@ def get_integer(prompt):
     Get an integer from Standard Input (stdin).
 
     The function will continue to prompt the user for a number until a valid
-    number is entered.
+    integer is entered.
 
     :param prompt: The String that the user will see, when
         they're prompted to enter the value.
@@ -18,6 +18,13 @@ def get_integer(prompt):
             return int(temp)
         print("{0} is not a valid number".format(temp))
 
+
+print(input.__doc__)
+print("*" * 80)
+print(get_integer.__doc__)
+print("*" * 80)
+
+help(get_integer)
 
 highest = 10
 answer = random.randint(1, highest)
