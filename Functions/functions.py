@@ -1,4 +1,4 @@
-def multiply(x, y):
+def multiply(x: float, y: float) -> float:
     """
     Multiplies two numbers
 
@@ -15,20 +15,20 @@ def multiply(x, y):
     #return result
 
 
-def is_palindrome(word):
+def is_palindrome(string: str) -> bool:
     """
     Check if a word is a palindrome.
 
     A palindrome is a word that reads the same forwards and backwards.
 
-    :param word: The word to check.
-    :return: True if the word is a palindrome, False otherwise.
+    :param string: The string to check.
+    :return: True if the string is a palindrome, False otherwise.
     """
-    backwards = word[::-1].casefold()
-    return backwards == word.casefold()
+    backwards = string[::-1].casefold()
+    return backwards == string.casefold()
 
 
-def palindrome_sentence(sentence):
+def palindrome_sentence(sentence: str) -> bool:
     """
     Check if a sentence is a palindrome.
 
@@ -88,7 +88,7 @@ answer = multiply(18, 3)
 print(answer)
 
 
-def fibonacci(n):
+def fibonacci(n: int) -> int:
     """Return the `n` th Fibonacci number, for positive `n`."""
     if 0 <= n <= 1:
         return n
@@ -107,3 +107,5 @@ def fibonacci(n):
 for i in range(36):
     print(i, fibonacci(i))
 
+p = is_palindrome("Madam")
+print(p)
