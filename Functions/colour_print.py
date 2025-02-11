@@ -1,3 +1,5 @@
+import colorama
+
 # Some ANSI escape codes for colours and effects
 BLACK = '\u001b[30m'
 RED = '\u001b[31m'
@@ -34,9 +36,11 @@ print(UNDERLINE, "this will be underlined")
 print(REVERSE, "this will be reversed")
 print(RESET, "this will be reset")
 
+colorama.init()
 colour_print("Hello in red", RED)
 colour_print("Hello in green", GREEN)
 colour_print("Hello in blue", BLUE)
 colour_print("Hello in bold", BOLD)
 colour_print("Hello in underline", UNDERLINE)
 colour_print("Hello in reverse", REVERSE)
+colorama.deinit()
