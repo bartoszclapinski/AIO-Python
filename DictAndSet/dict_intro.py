@@ -20,3 +20,21 @@ print(learner)
 
 learner = vehicles.get('ER5', 'Not found')
 print(learner)
+
+print('-' * 40)
+
+for key in vehicles:
+    print(key)
+
+print('-' * 40)
+
+for key in vehicles:
+    print(key, vehicles[key])
+
+print('-' * 40)
+    
+for key, value in vehicles.items():
+    print(key, value)
+
+print('-' * 40)
+
