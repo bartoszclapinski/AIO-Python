@@ -38,3 +38,6 @@ for key, value in vehicles.items():
 
 print('-' * 40)
 
+vehicles['starfighter'] = 'Lockheed F-104'
+vehicles['learjet'] = 'Bombardier Learjet 75'
+vehicles['toy'] = 'Glider'
