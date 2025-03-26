@@ -6,7 +6,8 @@ vehicles = {
     'virago': 'Yamaha XV250',
     'tenere': 'Suzuki Ténéré',
     'jimny': 'Suzuki Jimny',
-    'fiesta': 'Ford Fiesta'
+    'fiesta': 'Ford Fiesta',
+    'roadster': 'Triumph Street Triple'
 }
 
 my_car = vehicles['fiesta']
@@ -41,3 +42,8 @@ print('-' * 40)
 vehicles['starfighter'] = 'Lockheed F-104'
 vehicles['learjet'] = 'Bombardier Learjet 75'
 vehicles['toy'] = 'Glider'
+
+print('-' * 40)
+
+vehicles['virago'] = 'Yamaha XV535'
+
