@@ -43,7 +43,26 @@ vehicles['starfighter'] = 'Lockheed F-104'
 vehicles['learjet'] = 'Bombardier Learjet 75'
 vehicles['toy'] = 'Glider'
 
-print('-' * 40)
+
 
 vehicles['virago'] = 'Yamaha XV535'
+
+del vehicles['starfighter']
+
+result = vehicles.pop('f1', None)
+print(result)
+
+result = vehicles.pop('f1', 'You wish to have a F1 car!')
+print(result)
+
+bike = vehicles.pop('tenere', 'Not present')
+print(bike)
+
+print('-' * 40)
+
+
+
+
+
+
 
