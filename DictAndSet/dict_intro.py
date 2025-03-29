@@ -42,9 +42,6 @@ print('-' * 40)
 vehicles['starfighter'] = 'Lockheed F-104'
 vehicles['learjet'] = 'Bombardier Learjet 75'
 vehicles['toy'] = 'Glider'
-
-
-
 vehicles['virago'] = 'Yamaha XV535'
 
 del vehicles['starfighter']
@@ -59,6 +56,8 @@ bike = vehicles.pop('tenere', 'Not present')
 print(bike)
 
 print('-' * 40)
+
+
 
 
 
